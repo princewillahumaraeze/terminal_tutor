@@ -1,0 +1,157 @@
+# Python-specific files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+env/
+venv/
+.venv/
+
+# Django settings and secrets
+*.sqlite3
+*.log
+*.pot
+*.py[co]
+local_settings.py
+db.sqlite3
+.env
+*.env
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# macOS-specific files
+.DS_Store
+
+# IDE-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node.js dependencies (if using a frontend with npm/yarn)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Test artifacts
+*.pytest_cache
+.tox/
+.dist/
+.eggs/
+*.egg-info/
+.eggs-info/
+
+# Migrations generated locally
+**/migrations/*.pyc
+**/migrations/*.pyo
+**/migrations/__pycache__/
+**/migrations/[!__init__]*.py
+
+# Build artifacts
+build/
+dist/
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+pip-wheel-metadata/
+*.lock
+
+# Static files and media
+staticfiles/
+media/
+
+# Deployment files
+*.bak
+*.pid
+*.tar.gz
+*.zip
+*.gz
+
+# Celery & related tools
+celerybeat-schedule
+celerybeat.pid
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Environment variables
+.env
+.env.*.local
+
+# Next.js build output
+.next/
+out/
+
+# Static exports
+out/
+
+# Build cache
+.cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+coverage/
+*.lcov
+*.lcov.*
+
+# Editor/IDE-specific files
+.idea/
+.vscode/
+*.swp
+
+# macOS-specific files
+.DS_Store
+
+# Optional npm cache
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Optional parcel cache
+.parcel-cache/
+
+# Optional lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Optional temporary files
+*.tmp
+*.temp
+
+# Deployment files
+*.tar.gz
+*.zip
+*.bak
+
